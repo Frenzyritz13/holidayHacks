@@ -1,0 +1,67 @@
+02:34:19 **** Incremental Build of configuration Debug for project GPIO_Interrupt ****
+"C:\\Users\\Ritvi\\ModusToolbox\\tools_2.2\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.2 CY_IDE_TOOLS_DIR=C:/Users/Ritvi/ModusToolbox/tools_2.2 -j8 all 
+Tools Directory: C:/Users/Ritvi/ModusToolbox/tools_2.2
+CY8CKIT-062-WIFI-BT.mk: ../mtb_shared/TARGET_CY8CKIT-062-WIFI-BT/latest-v2.X/CY8CKIT-062-WIFI-BT.mk
+
+Prebuild operations complete
+Commencing build operations...
+
+Tools Directory: C:/Users/Ritvi/ModusToolbox/tools_2.2
+CY8CKIT-062-WIFI-BT.mk: ../mtb_shared/TARGET_CY8CKIT-062-WIFI-BT/latest-v2.X/CY8CKIT-062-WIFI-BT.mk
+
+Initializing build: mtb-example-psoc6-gpio-interrupt Debug CY8CKIT-062-WIFI-BT GCC_ARM
+
+Auto-discovery in progress...
+-> Found 185 .c file(s)
+-> Found 46 .S file(s)
+-> Found 22 .s file(s)
+-> Found 0 .cpp file(s)
+-> Found 0 .o file(s)
+-> Found 6 .a file(s)
+-> Found 474 .h file(s)
+-> Found 0 .hpp file(s)
+-> Found 0 resource file(s)
+Applying filters...
+Auto-discovery complete
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Building 172 file(s)
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C6247BZI-D54 GCC_ARM -Og
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  6292       | 
+  | .text                |  0x10002000   |  37148      | 
+  | .ARM.exidx           |  0x1000b11c   |  8          | 
+  | .copy.table          |  0x1000b124   |  24         | 
+  | .zero.table          |  0x1000b13c   |  8          | 
+  | .data                |  0x0800228c   |  1644       | 
+  | .cy_sharedmem        |  0x080028f8   |  12         | 
+  | .noinit              |  0x08002908   |  148        | 
+  | .bss                 |  0x0800299c   |  1824       | 
+  | .heap                |  0x080030c0   |  276288     | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          1048576    
+  Total Internal Flash (Utilized)           47044      
+
+  Total Internal SRAM (Available)           292864     
+  Total Internal SRAM (Utilized with heap)  279916     
+
+  
+
+02:34:28 Build Finished. 0 errors, 0 warnings. (took 9s.218ms)
+

@@ -1,0 +1,80 @@
+09:31:19 **** Build of configuration Release for project ADC_basic_1 ****
+"C:\\Users\\Ritvi\\ModusToolbox\\tools_2.2\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.2 CY_IDE_TOOLS_DIR=C:/Users/Ritvi/ModusToolbox/tools_2.2 -j8 all 
+Tools Directory: C:/Users/Ritvi/ModusToolbox/tools_2.2
+CY8CKIT-062-WIFI-BT.mk: ../mtb_shared/TARGET_CY8CKIT-062-WIFI-BT/latest-v2.X/CY8CKIT-062-WIFI-BT.mk
+
+Prebuild operations complete
+Commencing build operations...
+
+
+Tools Directory: C:/Users/Ritvi/ModusToolbox/tools_2.2
+CY8CKIT-062-WIFI-BT.mk: ../mtb_shared/TARGET_CY8CKIT-062-WIFI-BT/latest-v2.X/CY8CKIT-062-WIFI-BT.mk
+Prebuild operations complete
+Commencing build operations...
+
+Tools Directory: C:/Users/Ritvi/ModusToolbox/tools_2.2
+CY8CKIT-062-WIFI-BT.mk: ../mtb_shared/TARGET_CY8CKIT-062-WIFI-BT/latest-v2.X/CY8CKIT-062-WIFI-BT.mk
+
+Initializing build: mtb-example-psoc6-adc-basic Debug CY8CKIT-062-WIFI-BT GCC_ARM
+
+Auto-discovery in progress...
+
+Initializing build: mtb-example-psoc6-adc-basic Debug CY8CKIT-062-WIFI-BT GCC_ARM
+
+Auto-discovery in progress...
+-> Found 185 .c file(s)
+-> Found 185 .c file(s)
+-> Found 46 .S file(s)
+-> Found 46 .S file(s)
+-> Found 22 .s file(s)
+-> Found 22 .s file(s)
+-> Found 0 .cpp file(s)
+-> Found 0 .cpp file(s)
+-> Found 0 .o file(s)
+-> Found 0 .o file(s)
+-> Found 6 .a file(s)
+-> Found 6 .a file(s)
+-> Found 474 .h file(s)
+-> Found 474 .h file(s)
+-> Found 0 .hpp file(s)
+-> Found 0 .hpp file(s)
+-> Found 0 resource file(s)
+-> Found 0 resource file(s)
+Applying filters...
+Applying filters...
+Auto-discovery complete
+
+Constructing build rules...
+Auto-discovery complete
+
+Constructing build rules...
+Build rules construction complete
+Build rules construction complete
+
+==============================================================================
+= Building application =
+==============================================================================
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+mv: cannot stat 'C:/Users/Ritvi/electromaker1/ADC_basic_1/build/CY8CKIT-062-WIFI-BT/Debug/.cylinker_tmp': No such file or directory
+mv: cannot stat 'C:/Users/Ritvi/electromaker1/ADC_basic_1/build/CY8CKIT-062-WIFI-BT/Debug/.cycompiler_tmp': No such file or directory
+make[1]: *** [../mtb_shared/core-make/latest-v1.X/make/core/build.mk:468: C:/Users/Ritvi/electromaker1/ADC_basic_1/build/CY8CKIT-062-WIFI-BT/Debug/.cylinker] Error 1
+make[1]: *** [../mtb_shared/core-make/latest-v1.X/make/core/build.mk:457: C:/Users/Ritvi/electromaker1/ADC_basic_1/build/CY8CKIT-062-WIFI-BT/Debug/.cycompiler] Error 1
+make: *** [../mtb_shared/core-make/latest-v1.X/make/core/main.mk:416: secondstage_build] Error 2
+make: *** [../mtb_shared/core-make/latest-v1.X/make/core/main.mk:416: secondstage_build] Error 2
+"C:/Users/Ritvi/ModusToolbox/tools_2.2/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.2 CY_IDE_TOOLS_DIR=C:/Users/Ritvi/ModusToolbox/tools_2.2 -j8 all" terminated with exit code 2. Build might be incomplete.
+"C:/Users/Ritvi/ModusToolbox/tools_2.2/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.2 CY_IDE_TOOLS_DIR=C:/Users/Ritvi/ModusToolbox/tools_2.2 -j8 all" terminated with exit code 2. Build might be incomplete.
+
+09:35:16 Build Failed. 2 errors, 0 warnings. (took 3m:57s.613ms)
+
+
+09:35:16 Build Failed. 2 errors, 0 warnings. (took 3m:56s.924ms)
+
